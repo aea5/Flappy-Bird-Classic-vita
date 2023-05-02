@@ -38,6 +38,7 @@ target_link_libraries(${PROJECT_NAME}
 	soloud
 	pthread
 	SceAudio_stub
+  SceAppMgr_stub
 	SceDisplay_stub 
 	SceTouch_stub
 	SceGxm_stub
