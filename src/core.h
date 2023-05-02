@@ -1,16 +1,20 @@
 /*this code was written by creckeryop*/
 #pragma once
-#include "utils.h"
 #include "collision.h"
+#include "utils.h"
 
 enum states
 {
-    state_intro, state_menu, state_tap, state_play, state_death
+    state_intro,
+    state_menu,
+    state_tap,
+    state_play,
+    state_death
 };
 
 class bird : public obj
 {
-public:
+  public:
     float rot = 0;
     int color = 0;
     float velocity = 0;
