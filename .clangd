@@ -1,0 +1,7 @@
+CompileFlags:                     # Tweak the parse settings
+  Add:
+  [
+    "-I/usr/local/vitasdk/arm-vita-eabi/include/c++/10.3.0/",
+  ]
+  Compiler: 
+    /usr/local/vitasdk/bin/arm-vita-eabi-g++
